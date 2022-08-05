@@ -1,9 +1,110 @@
-<html>
- 
-<body>
-  <h1>Alyssa Spencer</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alyssa's Portfolio</title>
+        <link href="resources/css/index.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <!--Header-->
+    <header class="header" id="header">
+        <nav>
+            <ul>
+                <li>About Me</li>
+                <li>My Resume</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!--Body of Portfolio-->
+    <body>
+        <div class="about">
+            <div class="img">
+                <img src="resources\Alyssa.JPG" alt="alyssa" class="image1">
+            </div>
+
+            <div class="intro">
+                <h1>Hi! I'm Alyssa Spencer.</h1>
+                <h2>I'm a self-taught Web Designer</h2>
+                <br>
+                <p>Over the past few months I learned several coding languages such as HTML, CSS, JavaScript and and more!</p>
+                <p> I have always been a person who has both a creative and a logical side to everthing that I do. When I was in college for Environmental Science, I thought GIS (Geographic Information Science) was an interesting way to combine art and science as a career. However, through my journey as a GIS user, I discovered coding and knew that it would be a perfect fit! I could use my creative side to design and my logical side to code.</p>
+                <p>I hope to become a professional full stack web developer or front end web designer/developer in the near future. My dream is to own a freelance web design business, called Sunshine By Design, creating websites and templates for clients around the world!</p>
+            </div>
+        </div>
+
+        <div class="quote">
+            <h3>What I don't know, I can learn.</h3>
+        </div>
+
+        <div class="skills">
+            <table>
+                <tbody>
+                    <tc>
+                        <th>
+                            <div class="html-icon">
+                                <img src="resources\html_icon.jpg" alt="html icon" class="image2">
+                                <h4>HTML</h4>
+                            </div>
+                        </th>
+                    </tc>
+                    <tc>
+                        <th>
+                            <div class="css-icon">
+                                <img src="resources\css_icon.jpg" alt="css icon" class="image3">
+                                <h4>CSS</h4>
+                            </div>
+                        </th>
+                    </tc>
+                    <tc>
+                        <th>
+                            <div class="js-icon">
+                                <img src="resources\js_icon.jpg" alt="javascript icon" class="image4">
+                                <h4>Javascript</h4>
+                            </div>
+                        </th>
+                    </tc>
+                </tbody>
+            </table>            
+        </div>
+        
+        <img src="resources\landscape.jpg" class="image5">
+
+        <div class="projects-container">
+            <div class="">
+
+            </div>            
+
+        </div>
+
+    </body>
+
+    <footer class="contact-wrapper" id="contact">
+        <div class="contact-info">
+            <div class="container">
+                <h3>Contact me</h3>
+                <form action="action_page.html" method="POST">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="yourname" placeholder="Your Name..">
+
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="youremail" placeholder="Your Email..">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">                        
+                </form>
+
+                <div class="contact-links">
+                    <a href=""></a> <!--Linkedin-->
+                    <a href=""></a> <!--Github-->
+                </div>
+            </div>
+        </div>    
+    </footer>
 </html>
